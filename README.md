@@ -41,7 +41,7 @@ We design two complementary evaluation settings:
 
 ---
 
-## 🤖 Models Evaluated
+## Models Evaluated
 
 - **LLaVA-1.5 (7B, 13B)**
 - **GPT-4o**
@@ -51,7 +51,7 @@ Models are evaluated using identical prompts and a consistent scoring protocol.
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 - VLMs frequently fail to update left–right relationships under image flips
 - Larger models do **not** consistently outperform smaller ones on spatial reasoning
@@ -70,7 +70,7 @@ These results suggest that current training objectives insufficiently encode **e
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - PyTorch
@@ -98,7 +98,7 @@ A detailed write-up of the methodology and results is available here:
 
 ---
 
-## 👤 Authors
+## Authors
 
 - **Salvador Robles Herrera**  
 - **Eshan Balachandar**  
