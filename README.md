@@ -7,7 +7,7 @@ This repository contains the code, benchmarks, and evaluation pipeline used to a
 
 ---
 
-## 📌 Motivation
+## Motivation
 
 Recent Vision-Language Models (e.g., LLaVA, GPT-4o, Claude) achieve impressive results on tasks like VQA and image captioning. However, prior work suggests that these models may rely on **semantic shortcuts** rather than grounded spatial understanding.
 
@@ -18,11 +18,11 @@ This project investigates:
 
 ---
 
-## 🧪 Benchmarks
+## Benchmarks
 
 We design two complementary evaluation settings:
 
-### 1️⃣ Symmetry & Left–Right Consistency (COCO)
+### 1 Symmetry & Left–Right Consistency (COCO)
 - Images from the **COCO 2017 validation set**
 - Each image is evaluated **before and after horizontal flipping**
 - Tasks include:
@@ -31,7 +31,7 @@ We design two complementary evaluation settings:
   - Left–right spatial reasoning
 - Evaluated under **viewer-centric** and **ego-centric** prompt formulations
 
-### 2️⃣ Controlled Size Perception (Synthetic)
+### 2 Controlled Size Perception (Synthetic)
 - Procedurally generated images with two geometric objects
 - Exact ground-truth annotations for:
   - Shape
@@ -62,7 +62,7 @@ These results suggest that current training objectives insufficiently encode **e
 
 ---
 
-## 📐 Metrics
+## Metrics
 
 - **Flip-consistency**: whether predictions logically update after image transformations
 - **Accuracy** on spatial comparison tasks
@@ -80,14 +80,16 @@ These results suggest that current training objectives insufficiently encode **e
 
 ---
 
-## 📄 Paper
+## Paper and Presentation
 
 A detailed write-up of the methodology and results is available here:  
-📄 **[Project PDF](LINK_TO_PDF)**
+**[Project PDF](https://drive.google.com/file/d/1FLGDoPnuqrmCZ2-_yBixmCiWyB6ohdeY/view?usp=drive_link)**
+
+**[Presentation Slides](https://docs.google.com/presentation/d/1KoPlPSMyhYifx7oSTnl6k3lHaYQoc4TArmJ3SlYsSbU/edit?usp=sharing)**
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - Extending benchmarks to 3D or embodied environments
 - Fine-tuning VLMs on diagnostic spatial tasks
@@ -101,7 +103,7 @@ A detailed write-up of the methodology and results is available here:
 - **Salvador Robles Herrera**  
 - **Eshan Balachandar**  
 
-University of Texas at Austin
+The University of Texas at Austin
 
 ---
 
